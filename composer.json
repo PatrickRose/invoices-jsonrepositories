@@ -1,0 +1,30 @@
+{
+    "name": "patrickrose/invoices-jsonrepositories",
+    "description": "Json implementations for invoices",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "patrickrose/invoices-core": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Rose",
+            "email": "pjr0911025@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PatrickRose\\Invoices\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PatrickRose\\Invoices\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
